@@ -1,0 +1,19 @@
+#--------User input and conditional statements
+$--------Ticket is free under 3, under 12 is $10, over 12 is $15
+
+prompt = "Enter age: "
+prompt += "\nType 'quit' to exit"
+
+while True:
+
+	try:
+		age = int(input(prompt))
+		if age <= 3 :
+			print("Your ticket is free.")
+		elif age <= 12:
+			print("Your ticket is $10.")
+		else:
+			print("Your ticket is $15.")
+
+	except ValueError:
+		break
