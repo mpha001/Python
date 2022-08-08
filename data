@@ -1,0 +1,26 @@
+# Reading entire file, and replacing Python with C.
+file = "ilovepython.txt"
+
+with open(file) as f:
+	line = f.read()
+
+test = line.replace('Python', 'C')
+print(test)
+
+
+
+# Working with data by looping over file object.
+with open("ilovepython.txt") as x:
+	for linetwo in x:
+		print(linetwo.rstrip())
+
+
+
+# Working with data outside of with block.
+with open("ilovepython.txt") as y:
+	linethree = y.readlines()
+
+text = ''
+for z in linethree:
+	text += z
+print(text.rstrip())
