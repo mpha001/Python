@@ -1,0 +1,8 @@
+# Working with data outside of with block.
+with open("ilovepython.txt") as y:
+	linethree = y.readlines()
+
+text = ''
+for z in linethree:
+	text += z
+print(text.rstrip())
