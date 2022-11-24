@@ -1,0 +1,19 @@
+# Lottery with ticket numbers 
+
+import random
+
+
+lot = ['1','a','b']
+my_ticket = ['b','a','1']
+
+counter = 0
+
+while True:
+  choice= random.choices(lot, k=3)
+  print(choice)
+  counter += 1
+  
+  if choice == my_ticket:
+    break
+print(f"You pulled {counter} times to get win")
+    
