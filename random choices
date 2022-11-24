@@ -1,0 +1,14 @@
+# Practice using Random module
+
+
+#-------courses--------
+import random
+
+courses = ['History', 'Math', 'Physics', 'Compsci']
+
+random_course = random.choice(courses)
+
+print(random_course)
+
+
+
