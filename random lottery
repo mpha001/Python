@@ -1,0 +1,13 @@
+# Random lottery
+import random
+
+lot = ['1','2','3','4','5','6','7','8','9','10','a','b','c','d','e']
+random_choice = random.choice(lot)
+random_choice2 = random.choice(lot)
+random_choice3 = random.choice(lot)
+random_choice4 = random.choice(lot)
+
+print(f"Any ticket matching these numbers {random_choice}, {random_choice2}, {random_choice3}, {random_choice4} wins a prize. ")
+
+
+
