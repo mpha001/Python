@@ -1,0 +1,7 @@
+
+# Working with data by looping over file object.
+with open("ilovepython.txt") as x:
+	for linetwo in x:
+		print(linetwo.rstrip())
+
+
