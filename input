@@ -1,5 +1,5 @@
-#--------User input and conditional statements
-$--------Ticket is free under 3, under 12 is $10, over 12 is $15
+# User input and conditional statements
+# Ticket is free under 3, under 12 is $10, over 12 is $15
 
 prompt = "Enter age: "
 prompt += "\nType 'quit' to exit"
